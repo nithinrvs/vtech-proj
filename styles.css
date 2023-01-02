@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    background-image: url('splash.png');
+    background-repeat: no-repeat;
+    background-size: 800px 700px;
+    background-attachment: fixed;
+    background-position: right; 
+}
+
+
+li,a,button{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 5%;
+    border-bottom: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-content{
+    display: inline-block;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
+#home-content{
+    padding-top: 200px;
+    padding-left: 80px;
+    
+}
+
+#big-text{
+    font-size: 60px;
+    padding-bottom: 5px;
+    
+}
+
+#small-text{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+#content-end{
+    padding: 60px 0px 0px 80px;
+    display: flex;
+   
+}
+
+.btn-dicover{
+    margin-left: 40px;
+    border-color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+
+}
+
+.btn-dicover:hover{
+    background: linear-gradient(to right,#12ceb1,#a31ef3);
+}
