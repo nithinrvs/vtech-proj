@@ -71,3 +71,8 @@ ul{
 .btn-dicover:hover{
     background: linear-gradient(to right,#12ceb1,#a31ef3);
 }
+
+#twitter-logo{
+    width: 30px;
+    height: 30px;
+}
